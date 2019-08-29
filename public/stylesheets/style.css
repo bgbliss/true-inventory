@@ -1,0 +1,48 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  color: #00B7FF;
+}
+.navbar {
+  border-bottom: 1px #8A6116
+}
+
+.box {
+  border: 1px solid #454F5B;
+  background-color: #F9FAFB;
+  padding: 5px;
+  padding-top: 15px;
+}
+
+.item {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+.main-background {
+  background: #F9FAFB;
+  border: 1px solid #454F5B;
+  margin-top: 8vh;
+  padding: 15px;
+  overflow: auto;
+  max-height: 55vh;
+}
+
+.title-box {
+  border-bottom: 1px solid black;
+}
+
+.clear-btn {
+  margin-top: 10px;
+  position: absolute;
+  right: 16px;
+  width: 12vh;
+}
