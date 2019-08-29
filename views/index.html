@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Local js -->
+<script src="/javascripts/index.js"></script>
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- local css -->
+<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+
+<title></title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light mb-4">
+        <span class="navbar-brand mb-0 h1">True inventory</span>
+    </nav>
+    <div class="container">
+        <form class="row box">
+            <div class="col-2 text-center">
+                <button type="button" class="btn btn-primary" id="submit">Search</button>
+            </div>
+            <div class="col search form-group">
+                <input class="form-control" id="productID" type="text" placeholder="productID ex: 3847188349006">
+            </div>
+        </form>
+        <div class="alert-box text-center">
+
+        </div>
+        <div class="main-background">
+            <div class="row text-center title-box">
+                <div class="col-4">
+                    <h4>Title</h4>
+                </div>
+                <div class="col-4">
+                    <h4>Unshipped</h4>
+                </div>
+                <div class="col-4">
+                    <h4>On Shelf</h4>
+                </div>
+            </div>
+            <div class="row text-center main-content">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                    <button type="button" id="clear" class="btn btn-danger clear-btn">Clear</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
